@@ -23,6 +23,7 @@ stages:
               configMode: 'manual'
               cliProjectKey: 'UImonolitics'
               cliProjectName: 'UImonolitics'
+              cliProjectVersion: '1.0.1'
               cliSources: '.'
               extraProperties: |
                 sonar.sourceEncoding=UTF-8
