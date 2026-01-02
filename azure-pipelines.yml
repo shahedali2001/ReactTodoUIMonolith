@@ -24,11 +24,11 @@ stages:
               cliProjectKey: 'UImonolitics'
               cliProjectName: 'UImonolitics'
               cliSources: '.'
-          - task: SonarCloudAnalyze@3
+          - task: SonarQubeAnalyze@8
             inputs:
               jdkversion: 'JAVA_HOME_17_X64'
 
-          - task: SonarCloudPublish@3
+          - task: SonarQubePublish@8
             inputs:
               pollingTimeoutSec: '300'
   # ---------------------------------------------------------
