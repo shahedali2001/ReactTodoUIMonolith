@@ -23,6 +23,9 @@ stages:
               cliProjectKey: 'UImonolitics'
               cliProjectName: 'UImonolitics'
               cliSources: '.'
+              extraProperties: |
+                sonar.branch.name=
+
           - task: SonarQubeAnalyze@8
             inputs:
               jdkversion: 'JAVA_HOME_17_X64'
