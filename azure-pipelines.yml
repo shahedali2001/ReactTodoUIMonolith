@@ -23,8 +23,8 @@ stages:
               cliProjectKey: 'UImonolitics'
               cliProjectName: 'UImonolitics'
               cliSources: '.'
-              extraProperties: |
-                sonar.branch.name=
+              # extraProperties: |
+              #   sonar.branch.name=
 
           - task: SonarQubeAnalyze@8
             inputs:
